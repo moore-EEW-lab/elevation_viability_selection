@@ -1,0 +1,523 @@
+surv <- read.csv('surv.b.csv')
+head(surv)
+
+library(car)
+library(MASS)
+library(ggplot2)
+library(lme4)
+library(lmerTest)
+library(visreg)
+library(emmeans)
+library(viridis)
+
+range(surv$elevation) # -30 1834
+range(surv$abs.Lat) # 10.4606 61.2500
+
+### overall model
+s.mod01 <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = surv)
+summary(s.mod01)
+
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + (1 |  
+    # StudyID/Trait.Name) + (1 | Species) + (1 | grad.diff)
+   # Data: surv
+
+# REML criterion at convergence: -343.9
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -7.6527 -0.3420 -0.0562  0.2983 16.9962 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.004564 0.06756 
+ # StudyID            (Intercept) 0.002844 0.05333 
+ # Species            (Intercept) 0.005328 0.07299 
+ # grad.diff          (Intercept) 0.000000 0.00000 
+ # Residual                       0.041592 0.20394 
+# Number of obs: 1346, groups:  Trait.Name:StudyID, 105; StudyID, 37; Species, 25; grad.diff, 2
+
+# Fixed effects:
+                      # Estimate Std. Error       df t value Pr(>|t|)  
+# (Intercept)           -0.25662    0.20404 26.97125  -1.258   0.2193  
+# log10(elevation + 31) -0.03540    0.02877 74.55807  -1.230   0.2224  
+# log10(abs.Lat)         0.23852    0.12653 26.81283   1.885   0.0703 .
+
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.078       
+# lg10(bs.Lt) -0.955 -0.201
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(s.mod01)
+# log10(elevation + 31) -0.090223112 0.02261031
+# log10(abs.Lat)        -0.003122067 0.47711382
+
+
+# one very large value b = 3.796, let's remove it just to see
+s.mod01b <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = subset(surv, linear.coefs < 3.5))
+summary(s.mod01b) # doesn't change much, except maybe makes the latitude effect a bit stronger
+
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + (1 |  
+    # StudyID/Trait.Name) + (1 | Species) + (1 | grad.diff)
+   # Data: subset(surv, linear.coefs < 3.5)
+
+# REML criterion at convergence: -681.4
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -8.5729 -0.3816 -0.0617  0.3484  9.4210 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.005339 0.07307 
+ # StudyID            (Intercept) 0.002270 0.04764 
+ # Species            (Intercept) 0.003863 0.06215 
+ # grad.diff          (Intercept) 0.000000 0.00000 
+ # Residual                       0.031960 0.17877 
+# Number of obs: 1345, groups:  Trait.Name:StudyID, 105; StudyID, 37; Species, 25; grad.diff, 2
+
+# Fixed effects:
+                       # Estimate Std. Error        df t value Pr(>|t|)  
+# (Intercept)           -0.299984   0.184613 27.151519  -1.625   0.1157  
+# log10(elevation + 31) -0.003993   0.025815 72.027141  -0.155   0.8775  
+# log10(abs.Lat)         0.223754   0.114776 27.453494   1.949   0.0615 .
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.068       
+# lg10(bs.Lt) -0.956 -0.207
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(s.mod01b)
+# log10(elevation + 31) -0.054949456 0.04730148
+# log10(abs.Lat)         0.001115514 0.44901630
+
+### comparison between endotherms and ectotherms
+s.mod02 <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + Endo.Ecto + log10(elevation+31):Endo.Ecto + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = surv)
+summary(s.mod02)
+
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + Endo.Ecto +  
+    # log10(elevation + 31):Endo.Ecto + (1 | StudyID/Trait.Name) +      (1 | Species) + (1 | grad.diff)
+   # Data: surv
+
+# REML criterion at convergence: -341.3
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -7.7252 -0.3430 -0.0570  0.3094 16.9426 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.004681 0.06841 
+ # StudyID            (Intercept) 0.003888 0.06235 
+ # Species            (Intercept) 0.003225 0.05679 
+ # grad.diff          (Intercept) 0.000000 0.00000 
+ # Residual                       0.041496 0.20371 
+# Number of obs: 1346, groups:  Trait.Name:StudyID, 105; StudyID, 37; Species, 25; grad.diff, 3
+
+# Fixed effects:
+                                    # Estimate Std. Error       df t value Pr(>|t|)  
+# (Intercept)                         -0.36850    0.21270 27.13325  -1.732   0.0945 .
+# log10(elevation + 31)                0.04229    0.05915 62.72356   0.715   0.4773  
+# log10(abs.Lat)                       0.19251    0.12212 20.60461   1.576   0.1301  
+# Endo.EctoEndo                        0.27531    0.13581 45.40835   2.027   0.0485 *
+# log10(elevation + 31):Endo.EctoEndo -0.10386    0.06651 59.04004  -1.562   0.1237  
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) lg10(+31) l10(.L End.EE
+# lg10(lv+31) -0.391                        
+# lg10(bs.Lt) -0.842 -0.149                 
+# Endo.EctEnd -0.363  0.826    -0.110       
+# l10(+31):E.  0.402 -0.880     0.069 -0.955
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(s.mod02, parm = "log10(elevation + 31):Endo.EctoEndo")
+                                         # 2.5 %     97.5 %
+# log10(elevation + 31):Endo.EctoEndo -0.2159736 0.02557522
+
+## subset to just endotherms
+endos <- subset(surv, Endo.Ecto == 'Endo')
+range(endos$elevation) # -17 1834
+range(endos$abs.Lat) # 23.4333 61.0000
+
+endos01 <- lmer(linear.coefs ~ log10(elevation+31) + abs.Lat + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = endos)
+summary(endos01)
+
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + abs.Lat + (1 | StudyID/Trait.Name) +  
+    # (1 | Species) + (1 | grad.diff)
+   # Data: endos
+
+# REML criterion at convergence: -104.7
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -7.1833 -0.3170 -0.1030  0.2472 15.7789 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.003386 0.05819 
+ # StudyID            (Intercept) 0.007352 0.08574 
+ # Species            (Intercept) 0.000000 0.00000 
+ # grad.diff          (Intercept) 0.000000 0.00000 
+ # Residual                       0.048347 0.21988 
+# Number of obs: 918, groups:  Trait.Name:StudyID, 56; StudyID, 19; Species, 11; grad.diff, 2
+
+# Fixed effects:
+                        # Estimate Std. Error         df t value Pr(>|t|)  
+# (Intercept)           -0.0006241  0.1112676 16.5596713  -0.006   0.9956  
+# log10(elevation + 31) -0.0586024  0.0314386 31.2840834  -1.864   0.0717 .
+# abs.Lat                0.0045870  0.0020474 14.7793121   2.240   0.0409 *
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.457       
+# abs.Lat     -0.781 -0.154
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(endos01)
+# log10(elevation + 31) -0.1246800523 0.006438105
+# abs.Lat                0.0006824308 0.008666774
+
+## subset to just ectotherms
+ectos <- subset(surv, Endo.Ecto == 'Ecto')
+range(ectos$elevation) # -30 437
+range(ectos$abs.Lat) # 10.4606 61.2500
+
+ectos01 <- lmer(linear.coefs ~ log10(elevation+31) + abs.Lat + (1|StudyID/Trait.Name) + (1|Species) +(1|grad.diff), data = ectos)
+summary(ectos01)
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + abs.Lat + (1 | StudyID/Trait.Name) +  
+    # (1 | Species) + (1 | grad.diff)
+   # Data: ectos
+
+# REML criterion at convergence: -271.6
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -3.6305 -0.4355  0.0346  0.4713  5.4507 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.01263  0.1124  
+ # StudyID            (Intercept) 0.00000  0.0000  
+ # Species            (Intercept) 0.00000  0.0000  
+ # grad.diff          (Intercept) 0.00000  0.0000  
+ # Residual                       0.02536  0.1592  
+# Number of obs: 428, groups:  Trait.Name:StudyID, 49; StudyID, 18; Species, 14; grad.diff, 2
+
+# Fixed effects:
+                        # Estimate Std. Error         df t value Pr(>|t|)
+# (Intercept)           -0.1037144  0.1039303 67.8072162  -0.998    0.322
+# log10(elevation + 31)  0.0340464  0.0466258 88.2279316   0.730    0.467
+# abs.Lat                0.0008572  0.0015064 47.3343967   0.569    0.572
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.745       
+# abs.Lat     -0.532 -0.138
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(ectos01)
+# log10(elevation + 31) -0.056829449 0.125378608
+# abs.Lat               -0.002147321 0.003775597
+
+#### vertebrates vs invertebrates
+s.mod03 <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + Taxon.group + log10(elevation+31):Taxon.group + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = surv)
+summary(s.mod03)
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + Taxon.group +  
+    # log10(elevation + 31):Taxon.group + (1 | StudyID/Trait.Name) +      (1 | Species) + (1 | grad.diff)
+   # Data: surv
+
+# REML criterion at convergence: -345.5
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -7.6818 -0.3385 -0.0604  0.2966 16.9878 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.004635 0.06808 
+ # StudyID            (Intercept) 0.002556 0.05056 
+ # Species            (Intercept) 0.004182 0.06467 
+ # grad.diff          (Intercept) 0.000000 0.00000 
+ # Residual                       0.041505 0.20373 
+# Number of obs: 1346, groups:  Trait.Name:StudyID, 105; StudyID, 37; Species, 25; grad.diff, 2
+
+# Fixed effects:
+                                   # Estimate Std. Error      df t value Pr(>|t|)   
+# (Intercept)                         -1.0980     0.3637 43.2446  -3.019  0.00425 **
+# log10(elevation + 31)                0.3442     0.1384 70.8295   2.487  0.01523 * 
+# log10(abs.Lat)                       0.2812     0.1216 24.7431   2.312  0.02941 * 
+# Taxon.groupV                         0.7994     0.2913 51.2213   2.744  0.00834 **
+# log10(elevation + 31):Taxon.groupV  -0.3932     0.1419 71.3746  -2.771  0.00712 **
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) lg10(+31) l10(.L Txn.gV
+# lg10(lv+31) -0.818                        
+# lg10(bs.Lt) -0.633  0.096                 
+# Taxon.gropV -0.847  0.961     0.157       
+# l10(+31):T.  0.827 -0.980    -0.140 -0.981
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+
+## subset to just inverts
+inverts <- subset(surv, Taxon.group == 'I')
+range(inverts$elevation) # 10 244
+range(inverts$abs.Lat) # 39.0369 55.7000
+
+s.modI <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = inverts)
+summary(s.modI)
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + (1 |  
+    # StudyID/Trait.Name) + (1 | Species) + (1 | grad.diff)
+   # Data: subset(surv, Taxon.group == "I")
+
+# REML criterion at convergence: -54.8
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -3.0077 -0.5246  0.0386  0.5188  4.4342 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.00000  0.0000  
+ # StudyID            (Intercept) 0.00000  0.0000  
+ # Species            (Intercept) 0.02755  0.1660  
+ # grad.diff          (Intercept) 0.00000  0.0000  
+ # Residual                       0.03637  0.1907  
+# Number of obs: 138, groups:  Trait.Name:StudyID, 20; StudyID, 6; Species, 4; grad.diff, 2
+
+# Fixed effects:
+                       # Estimate Std. Error        df t value Pr(>|t|)  
+# (Intercept)             0.06352    2.75784   3.38478   0.023   0.9829  
+# log10(elevation + 31)   0.27812    0.14780 133.34841   1.882   0.0621 .
+# log10(abs.Lat)         -0.33587    1.58446   2.75521  -0.212   0.8468  
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.475       
+# lg10(bs.Lt) -0.994  0.381
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(s.modI)
+# log10(elevation + 31) -0.008851079 0.57250570
+# log10(abs.Lat)        -3.149835656 2.44611908
+
+## subset to just verts
+verts <- subset(surv, Taxon.group == 'V')
+range(verts$elevation) # -30 1834
+range(verts$abs.Lat) # 10.4606 61.2500
+
+s.modV <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = subset(surv, Taxon.group == "V"))
+summary(s.modV)
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + (1 |  
+    # StudyID/Trait.Name) + (1 | Species) + (1 | grad.diff)
+   # Data: subset(surv, Taxon.group == "V")
+
+# REML criterion at convergence: -299.8
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -7.6126 -0.3316 -0.0706  0.2846 16.8934 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.005734 0.07572 
+ # StudyID            (Intercept) 0.003747 0.06121 
+ # Species            (Intercept) 0.001506 0.03881 
+ # grad.diff          (Intercept) 0.000000 0.00000 
+ # Residual                       0.041922 0.20475 
+# Number of obs: 1208, groups:  Trait.Name:StudyID, 85; StudyID, 31; Species, 21; grad.diff, 2
+
+# Fixed effects:
+                      # Estimate Std. Error       df t value Pr(>|t|)  
+# (Intercept)           -0.32505    0.18328 17.36941  -1.774   0.0937 .
+# log10(elevation + 31) -0.04742    0.02733 29.32575  -1.735   0.0932 .
+# log10(abs.Lat)         0.29480    0.11546 19.01136   2.553   0.0194 *
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.048       
+# lg10(bs.Lt) -0.951 -0.245
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(s.modV)
+# log10(elevation + 31) -0.10220001 0.008079872
+# log10(abs.Lat)         0.07476057 0.517150642
+
+######### pre-adult survival
+
+e.surv <- subset(surv, Fitness.Measure.Defined %in% c('Survival to adulthood', 'Survival rate of offspring (proportion)', 'Survival rate of offspring (absolute recruitment)', 'survival (recruitment to the breeding population)', 'pre-reproductive survival', 'neonatal survival', 'juvenile survival', 'clutch survival'))
+
+range(e.surv$elevation) # 5 971
+range(e.surv$abs.Lat) # 41.9586 57.8140
+
+es.mod01 <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = e.surv)
+summary(es.mod01)
+
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + (1 |  
+    # StudyID/Trait.Name) + (1 | Species) + (1 | grad.diff)
+   # Data: e.surv
+
+# REML criterion at convergence: 184
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -4.0651 -0.2515  0.0114  0.2554  8.1647 
+
+# Random effects:
+ # Groups             Name        Variance Std.Dev.
+ # Trait.Name:StudyID (Intercept) 0.01108  0.1052  
+ # StudyID            (Intercept) 0.00000  0.0000  
+ # Species            (Intercept) 0.00000  0.0000  
+ # grad.diff          (Intercept) 0.00000  0.0000  
+ # Residual                       0.17043  0.4128  
+# Number of obs: 163, groups:  Trait.Name:StudyID, 12; StudyID, 7; Species, 7; grad.diff, 2
+
+# Fixed effects:
+                      # Estimate Std. Error       df t value Pr(>|t|)  
+# (Intercept)            2.41938    1.70551  6.54236   1.419   0.2019  
+# log10(elevation + 31) -0.23621    0.08419 21.48354  -2.806   0.0105 *
+# log10(abs.Lat)        -1.02802    0.95585  6.24397  -1.076   0.3219  
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.514       
+# lg10(bs.Lt) -0.994  0.421
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+confint(es.mod01)
+# log10(elevation + 31) -0.3906397 -0.07759441
+# log10(abs.Lat)        -2.8483189  0.72971959
+
+
+#### survival during adulthood
+l.surv <- subset(surv, Fitness.Measure.Defined %in% c('survival to the next breeding season', 'Survival - adult mortality, 2nd generation', 'Survival - adult mortality, 1st generation', 'reproductive lifespan', 'annual survival', 'Male survival', 'male survival', 'female survival', 'Abbual survival'))
+
+range(l.surv$elevation) # -2 1047
+range(l.surv$abs.Lat) # 39.0369 59.3217
+
+ls.mod01 <- lmer(linear.coefs ~ log10(elevation+31) + log10(abs.Lat) + (1|StudyID/Trait.Name) + (1|Species) + (1|grad.diff), data = l.surv)
+summary(ls.mod01)
+# Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+# Formula: linear.coefs ~ log10(elevation + 31) + log10(abs.Lat) + (1 |  
+    # StudyID/Trait.Name) + (1 | Species) + (1 | grad.diff)
+   # Data: l.surv
+
+# REML criterion at convergence: -420.5
+
+# Scaled residuals: 
+    # Min      1Q  Median      3Q     Max 
+# -6.0961 -0.3589 -0.1662  0.2801  5.7126 
+
+# Random effects:
+ # Groups             Name        Variance  Std.Dev. 
+ # Trait.Name:StudyID (Intercept) 8.880e-03 9.423e-02
+ # StudyID            (Intercept) 3.363e-09 5.799e-05
+ # Species            (Intercept) 5.571e-11 7.464e-06
+ # grad.diff          (Intercept) 6.847e-03 8.275e-02
+ # Residual                       2.427e-02 1.558e-01
+# Number of obs: 519, groups:  Trait.Name:StudyID, 19; StudyID, 7; Species, 7; grad.diff, 2
+
+# Fixed effects:
+                      # Estimate Std. Error       df t value Pr(>|t|)
+# (Intercept)            0.37416    1.20062 19.80772   0.312    0.759
+# log10(elevation + 31)  0.06985    0.07116 34.89186   0.982    0.333
+# log10(abs.Lat)        -0.28849    0.64123 16.85846  -0.450    0.659
+
+# Correlation of Fixed Effects:
+            # (Intr) l10(+3
+# lg10(lv+31) -0.748       
+# lg10(bs.Lt) -0.993  0.678
+# optimizer (nloptwrap) convergence code: 0 (OK)
+# boundary (singular) fit: see help('isSingular')
+
+
+
+confint(ls.mod01)
+# log10(elevation + 31) -0.09287078 0.16226050
+# log10(abs.Lat)        -1.45597101 0.84203691
+
+
+
+###################################
+###### formal meta-analysis
+###################################
+
+
+form <- subset(surv, !is.na(linear.coefs.se))
+dim(form)
+
+561/1346 # 0.4167905
+
+range(form$elevation) # -30 1047
+range(form$abs.Lat)
+
+library(metafor)
+
+
+meta01 <- rma.mv(linear.coefs ~ log10(elevation+31) + log10(abs.Lat), random = list(~1|StudyID/Trait.Name, ~1|Species, ~1|grad.diff),  V = (form$linear.coefs.se)^2, data = form)
+summary(meta01)
+
+# Multivariate Meta-Analysis Model (k = 551; method: REML)
+
+   # logLik   Deviance        AIC        BIC       AICc  ​ 
+# -114.0901   228.1802   242.1802   272.3241   242.3876   
+
+# Variance Components:
+
+            # estim    sqrt  nlvls  fixed              factor 
+# sigma^2.1  0.0092  0.0962     18     no             StudyID 
+# sigma^2.2  0.0032  0.0564     43     no  StudyID/Trait.Name 
+# sigma^2.3  0.0000  0.0000     15     no             Species 
+# sigma^2.4  0.0000  0.0000      2     no           grad.diff 
+
+# Test for Residual Heterogeneity:
+# QE(df = 548) = 2729.0703, p-val < .0001
+
+# Test of Moderators (coefficients 2:3):
+# QM(df = 2) = 7.1824, p-val = 0.0276
+
+# Model Results:
+
+                       # estimate      se     zval    pval    ci.lb   ci.ub   ​ 
+# intrcpt                 -0.3591  0.2948  -1.2180  0.2232  -0.9369  0.2188    
+# log10(elevation + 31)   -0.0270  0.0143  -1.8902  0.0587  -0.0551  0.0010  . 
+# log10(abs.Lat)           0.3083  0.1771   1.7406  0.0818  -0.0389  0.6555  . 
+
+
+
+
