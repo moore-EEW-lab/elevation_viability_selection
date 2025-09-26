@@ -1,0 +1,1372 @@
+StudyID,Species,Taxon.group,Endo.Ecto,Lat.Decimal.Degrees,Trait.Name,Fitness.Measure.Defined,N,linear.coefs,linear.coefs.se,grad.diff,elevation,abs.Lat
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),34,-1.426510584,0.60238109,grad,29,42.5667
+79,Phasianus colchicus,V,Endo,55.7232,weight,female survival,30,-0.8,NA,grad,17,55.7232
+73,Lacerta agilis,V,Ecto,57.3947,Female mass,Survival rate of offspring (proportion),23,-0.759,0.472,grad,5,57.3947
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),87,-0.704837692,0.51898546,grad,593,42.55
+73,Lacerta agilis,V,Ecto,57.3947,Female mass,Survival rate of offspring (absolute recruitment),23,-0.595,0.454,grad,5,57.3947
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing length,survival,172,-0.535,NA,grad,-17,23.4333
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),108,-0.496708399,1.21816711,grad,29,42.5667
+79,Phasianus colchicus,V,Endo,55.7232,weight,female survival,31,-0.43,NA,grad,17,55.7232
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,35,-0.41,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,58,-0.4,NA,grad,8,25.745
+79,Phasianus colchicus,V,Endo,55.7232,weight,female survival,54,-0.4,NA,grad,17,55.7232
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,35,-0.359595,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,70,-0.35,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,58,-0.35,NA,grad,8,25.745
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),163,-0.348872989,0.36895598,grad,29,42.5667
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),136,-0.332686522,0.39567515,grad,232,43.6667
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,35,-0.33,NA,grad,8,25.745
+132,Anolis sagrei,V,Ecto,23.4833,hindlimb X forlimb length,survival,171,-0.32,0.15,grad,-1,23.4833
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,-0.32,0.2,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.7,Hindwing length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,-0.294091,NA,grad,10,55.7
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-2 winter survival,242,-0.28,NA,grad,124,42.4167
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,41,-0.27,NA,grad,8,25.745
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-2 winter survival,173,-0.27,NA,grad,124,42.4167
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),241,-0.261218811,0.3534121,grad,29,42.5667
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,70,-0.26,NA,grad,8,25.745
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,33,-0.253,0.22,grad,121,57.814
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,34,-0.250416,NA,grad,8,25.745
+79,Phasianus colchicus,V,Endo,55.7232,wing length,male survival,29,-0.25,NA,grad,17,55.7232
+79,Phasianus colchicus,V,Endo,55.7232,wing length,male survival,32,-0.24,NA,grad,17,55.7232
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),63,-0.234928705,0.50760675,grad,29,42.5667
+11,Calopteryx splendens,I,Ecto,55.6333,Hindwing width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,-0.226834,NA,grad,33,55.6333
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),145,-0.226011228,0.25188037,grad,593,42.55
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,71,-0.220991,NA,grad,8,25.745
+73,Lacerta agilis,V,Ecto,57.3947,Female condition,Survival rate of offspring (proportion),19,-0.22,0.378,grad,5,57.3947
+11,Calopteryx splendens,I,Ecto,55.6333,Mass,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,-0.218969,NA,grad,33,55.6333
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,36,-0.218,0.238,grad,184,41.9586
+119,Aquarius remigis,I,Ecto,45.5167,thorax length,longevity,50,-0.21,NA,grad,31,45.5167
+11,Calopteryx splendens,I,Ecto,55.6333,Hindwing length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,-0.202437,NA,grad,33,55.6333
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-2 winter survival,191,-0.2,NA,grad,124,42.4167
+37,Stegastes partitus,V,Ecto,23.7903,Relative growth rate (Dk),Longevity,89,-0.198,0.052,grad,-30,23.7903
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,9,-0.189,0.219,grad,121,57.814
+37,Stegastes partitus,V,Ecto,23.7179,Relative growth rate (Dk),Longevity,32,-0.187,0.125,grad,-2,23.7179
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus length,survival,223,-0.185,NA,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,42,-0.18,NA,grad,8,25.745
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 summer survival,174,-0.18,NA,grad,124,42.4167
+119,Aquarius remigis,I,Ecto,45.5167,abdomen length,longevity,60,-0.179,NA,grad,31,45.5167
+11,Calopteryx splendens,I,Ecto,55.6333,Hindwing width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,-0.175656,NA,grad,33,55.6333
+11,Calopteryx splendens,I,Ecto,55.6333,Thorax length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,-0.172754,NA,grad,33,55.6333
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen depth,survival,172,-0.171,NA,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,66,-0.17,NA,grad,8,25.745
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,24,-0.166,0.473,grad,184,41.9586
+37,Stegastes partitus,V,Ecto,23.6725,Relative growth rate (Dk),Longevity,87,-0.166,0.055,grad,0,23.6725
+11,Calopteryx splendens,I,Ecto,55.6333,Total length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,-0.165706,NA,grad,33,55.6333
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,36,-0.163,0.071,grad,121,57.814
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,42,-0.16,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,51,-0.16,NA,grad,8,25.745
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,-0.16,0.07,grad,-17,23.4333
+74,Oncorhynchus nerka,V,Ecto,59.3217,body length,Male survival,131,-0.157,0.031,grad,19,59.3217
+79,Phasianus colchicus,V,Endo,55.7232,wing length,female survival,30,-0.15,NA,grad,17,55.7232
+11,Calopteryx splendens,I,Ecto,55.6333,Total length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,-0.141968,NA,grad,33,55.6333
+79,Phasianus colchicus,V,Endo,55.7232,wing length,female survival,31,-0.14,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-2 winter survival,173,-0.14,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,-0.14,0.19,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,-0.14,0.2,grad,-17,23.4333
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),205,-0.139206092,0.29398202,grad,232,43.6667
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus length,survival,172,-0.136,NA,grad,-17,23.4333
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus length,survival,170,-0.135,NA,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.7,Mass,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,-0.133509,NA,grad,10,55.7
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail length,survival,170,-0.131,NA,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,35,-0.130385,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,97,-0.13,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,34,-0.12680955,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,80,-0.124224,NA,grad,8,25.745
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,75,-0.124,0.057,grad,10,51.641
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,85,-0.124,0.052,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,339,-0.121,NA,grad,971,46.8607
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-2 winter survival,96,-0.12,NA,grad,124,42.4167
+79,Phasianus colchicus,V,Endo,55.7232,tarsus length,male survival,29,-0.12,NA,grad,17,55.7232
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,-0.12,0.07,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,66,-0.11748,NA,grad,8,25.745
+11,Calopteryx splendens,I,Ecto,55.7,Forewing width,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,-0.116828,NA,grad,10,55.7
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,-0.11,NA,grad,88,10.4606
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,-0.11,0.1,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,-0.11,0.05,grad,-17,23.4333
+37,Stegastes partitus,V,Ecto,23.7179,Asymptotic body size (Tlmax),Longevity,32,-0.107,0.085,grad,-2,23.7179
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,524,-0.103,NA,grad,971,46.8607
+11,Calopteryx splendens,I,Ecto,55.6333,Thorax width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,-0.101922,NA,grad,33,55.6333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,-0.1,0.1,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,-0.1,0.1,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,35,-0.098268,NA,grad,8,25.745
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,67,-0.098,0.061,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,63,-0.0975744,NA,grad,8,25.745
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,51,-0.097,0.068,grad,10,51.641
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,51,-0.095,NA,grad,8,25.745
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen length,survival,170,-0.092,NA,grad,-17,23.4333
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-1 winter survival,210,-0.09,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-2 winter survival,115,-0.09,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,-0.09,0.17,grad,-17,23.4333
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),133,-0.089037598,0.22842674,grad,593,42.55
+73,Lacerta agilis,V,Ecto,57.3947,Female condition,Survival rate of offspring (absolute recruitment),19,-0.089,0.509,grad,5,57.3947
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,474,-0.088,NA,grad,971,46.8607
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),372,-0.085820888,0.20407324,grad,232,43.6667
+11,Calopteryx splendens,I,Ecto,55.7,Total length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,-0.084062,NA,grad,10,55.7
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,76,-0.082,0.054,grad,10,51.641
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen depth,survival,223,-0.081,NA,grad,-17,23.4333
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,-0.08,NA,grad,88,10.4606
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-2 winter survival,121,-0.08,NA,grad,124,42.4167
+79,Phasianus colchicus,V,Endo,55.7232,bill depth,female survival,30,-0.08,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-2 winter survival,153,-0.08,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 summer survival,374,-0.08,NA,grad,124,42.4167
+11,Calopteryx splendens,I,Ecto,55.7,Forewing width,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,-0.07982,NA,grad,10,55.7
+74,Oncorhynchus nerka,V,Ecto,59.3217,body depth,Male survival,131,-0.079,0.031,grad,19,59.3217
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,414,-0.079,NA,grad,971,46.8607
+11,Calopteryx splendens,I,Ecto,55.7,Thorax length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,-0.077781,NA,grad,10,55.7
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,61,-0.075,0.064,grad,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,105,-0.075,0.048,grad,10,51.641
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),243,-0.074139966,0.16146162,grad,593,42.55
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,463,-0.073,NA,grad,971,46.8607
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,435,-0.071,NA,grad,971,46.8607
+132,Anolis sagrei,V,Ecto,23.4833,Snout-vent length,survival,171,-0.07,0.15,grad,-1,23.4833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,664,-0.07,NA,grad,971,46.8607
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,27,-0.07,0.183,grad,121,57.814
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,-0.07,0.09,grad,-17,23.4333
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen width,survival,170,-0.065,NA,grad,-17,23.4333
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),228,-0.064015778,0.34653102,grad,232,43.6667
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,96,-0.062,0.051,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,132,-0.062,0.043,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,66,-0.0610896,NA,grad,8,25.745
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-2 winter survival,174,-0.06,NA,grad,124,42.4167
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,80,-0.06,0.056,grad,10,51.641
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-1 summer survival,189,-0.06,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,-0.06,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,-0.06,0.05,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,-0.06,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,-0.06,0.07,grad,-17,23.4333
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),96,-0.059088467,0.55765381,grad,29,42.5667
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,62,-0.059,0.064,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,179,-0.059,0.037,grad,39,52.0833
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,82,-0.057,NA,grad,8,25.745
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,38,-0.055,0.082,grad,10,51.641
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),180,-0.054535617,0.7900313,grad,29,42.5667
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),362,-0.052506671,0.16025482,grad,232,43.6667
+73,Lacerta agilis,V,Ecto,57.3947,Female mass,Survival rate of offspring (absolute recruitment),19,-0.052,0.831,grad,5,57.3947
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,48,-0.052,0.054,grad,121,57.814
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,60,-0.052,0.06,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,169,-0.052,0.038,grad,39,52.0833
+11,Calopteryx splendens,I,Ecto,55.6333,Hindwing length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,-0.051454,NA,grad,33,55.6333
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,36,-0.051,0.061,grad,121,57.814
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen width,survival,223,-0.051,NA,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.6333,Forewing length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,-0.050664,NA,grad,33,55.6333
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,80,-0.0502072,NA,grad,8,25.745
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,-0.05,NA,grad,88,10.4606
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,112,-0.05,0.035,grad,121,57.814
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-1 summer survival,260,-0.05,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,-0.05,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,-0.05,0.08,grad,-17,23.4333
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,238,-0.049,0.032,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,339,-0.049,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,197,-0.048,0.036,grad,39,52.0833
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,95,-0.047,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,58,-0.047,NA,grad,8,25.745
+119,Aquarius remigis,I,Ecto,45.5167,thorax length,longevity,60,-0.046,NA,grad,31,45.5167
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,236,-0.046,0.032,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,240,-0.044,0.032,grad,-2,53.2833
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),133,-0.04376235,0.22937654,grad,593,42.55
+11,Calopteryx splendens,I,Ecto,55.7,Total length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,-0.04326,NA,grad,10,55.7
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,524,-0.043,NA,grad,971,46.8607
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),137,-0.040849391,0.33268822,grad,593,42.55
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,208,-0.04,0.035,grad,39,52.0833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,54,-0.04,0.066,grad,10,51.641
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 winter survival,379,-0.04,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-1 winter survival,196,-0.04,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-1 winter survival,251,-0.04,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-2 winter survival,188,-0.04,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 summer survival,197,-0.04,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 summer survival,323,-0.04,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,-0.04,0.05,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,-0.04,0.08,grad,-17,23.4333
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,84,-0.038,0.053,grad,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,54,-0.037,0.069,grad,10,51.641
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,90,-0.037,0.053,grad,-2,53.2833
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,9,-0.036,0.163,grad,121,57.814
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,276,-0.035,NA,grad,971,46.8607
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,463,-0.035,NA,grad,971,46.8607
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,60,-0.034,0.07,grad,121,57.814
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,125,-0.034,0.045,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,70,-0.033,NA,grad,8,25.745
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,80,-0.033,0.057,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,256,-0.033,0.03,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,204,-0.033,0.035,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,664,-0.032,NA,grad,971,46.8607
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),475,-0.030436711,0.19647677,grad,232,43.6667
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),162,-0.030305075,0.16470774,grad,593,42.55
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,198,-0.03,0.035,grad,39,52.0833
+79,Phasianus colchicus,V,Endo,55.7232,weight,male survival,38,-0.03,NA,grad,17,55.7232
+79,Phasianus colchicus,V,Endo,55.7232,weight,male survival,32,-0.03,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 summer survival,282,-0.03,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 winter survival,230,-0.03,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 winter survival,469,-0.03,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,-0.03,0.06,grad,-17,23.4333
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,275,-0.029,0.03,grad,39,52.0833
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,56,-0.028,0.068,grad,10,51.641
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,258,-0.027,0.031,grad,-2,53.2833
+11,Calopteryx splendens,I,Ecto,55.7,Thorax width,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,-0.026438,NA,grad,10,55.7
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,216,-0.026,0.034,grad,-2,53.2833
+11,Calopteryx splendens,I,Ecto,55.6333,Thorax width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,-0.025323,NA,grad,33,55.6333
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,90,-0.025,0.054,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,603,-0.024,NA,grad,971,46.8607
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,284,-0.024,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,221,-0.024,0.034,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,258,-0.024,0.03,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,414,-0.023,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,182,-0.023,0.037,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,197,-0.023,0.036,grad,39,52.0833
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),230,-0.022490144,0.23084246,grad,232,43.6667
+11,Calopteryx splendens,I,Ecto,55.7,Thorax width,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,-0.022095,NA,grad,10,55.7
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,98,-0.022,0.051,grad,121,57.814
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,165,-0.022,0.038,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,342,-0.022,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,224,-0.021,0.033,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,172,-0.02,0.038,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,202,-0.02,0.035,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,603,-0.02,NA,grad,971,46.8607
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,71,-0.02,0.06,grad,10,51.641
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-2 winter survival,174,-0.02,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-2 winter survival,242,-0.02,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 summer survival,267,-0.02,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 summer survival,444,-0.02,NA,grad,124,42.4167
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,233,-0.019,0.033,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,116,-0.019,0.047,grad,-2,53.2833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,149,-0.018,0.041,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,195,-0.017,0.035,grad,39,52.0833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,53,-0.017,0.07,grad,10,51.641
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,143,-0.016,0.041,grad,39,52.0833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,23,-0.016,0.109,grad,10,51.641
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,213,-0.016,0.034,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,63,-0.0156816,NA,grad,8,25.745
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,120,-0.015,0.046,grad,39,52.0833
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,164,-0.015,0.025,grad,121,57.814
+11,Calopteryx splendens,I,Ecto,55.6333,Total length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,-0.014668,NA,grad,33,55.6333
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,259,-0.013,0.03,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,463,-0.013,NA,grad,971,46.8607
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,97,-0.013,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,44,-0.0126418,NA,grad,8,25.745
+37,Stegastes partitus,V,Ecto,23.7429,Relative growth rate (Dk),Longevity,66,-0.012,0.072,grad,-24,23.7429
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,70,-0.011,0.059,grad,10,51.641
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,-0.01,NA,grad,88,10.4606
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,-0.01,NA,grad,88,10.4606
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 winter survival,640,-0.01,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 winter survival,751,-0.01,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 summer survival,197,-0.01,NA,grad,124,42.4167
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,79,-0.01,0.057,grad,10,51.641
+79,Phasianus colchicus,V,Endo,55.7232,bill length,female survival,31,-0.01,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-1 winter survival,640,-0.01,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 winter survival,306,-0.01,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-2 winter survival,96,-0.01,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,-0.01,0.08,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.7,Hindwing length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,-0.009402,NA,grad,10,55.7
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,70,-0.009,0.06,grad,10,51.641
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,68,-0.0082,NA,grad,8,25.745
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,280,-0.008,0.03,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,229,-0.008,0.033,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,76,-0.008,0.058,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,288,-0.008,0.03,grad,-2,53.2833
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),63,-0.007643051,0.5174041,grad,29,42.5667
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,284,-0.006,NA,grad,971,46.8607
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),189,-0.005919388,0.28463277,grad,29,42.5667
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,237,-0.005,0.032,grad,-2,53.2833
+11,Calopteryx splendens,I,Ecto,55.6333,Mass,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,-0.004019,NA,grad,33,55.6333
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,289,-0.004,0.029,grad,39,52.0833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,103,-0.003,0.049,grad,10,51.641
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,104,-0.003,0.049,grad,-2,53.2833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,134,-0.002,0.043,grad,39,52.0833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,85,-0.002,0.055,grad,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,50,-0.002,0.073,grad,10,51.641
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,229,-0.002,0.033,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,41,-0.0017,NA,grad,8,25.745
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 winter survival,379,0,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 winter survival,469,0,NA,grad,124,42.4167
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,197,0,0.036,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,176,0,0.038,grad,-2,53.2833
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 winter survival,751,0,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 summer survival,282,0,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-1 summer survival,168,0,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-1 summer survival,508,0,NA,grad,124,42.4167
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,184,0.001,0.036,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,167,0.001,0.039,grad,-2,53.2833
+74,Oncorhynchus nerka,V,Ecto,59.3217,body length,Male survival,419,0.002,0.022,grad,19,59.3217
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,205,0.002,0.034,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,308,0.002,0.025,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,138,0.003,0.042,grad,-2,53.2833
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,74,0.004,0.059,grad,10,51.641
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,220,0.004,0.032,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,285,0.005,NA,grad,971,46.8607
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,178,0.005,0.038,grad,-2,53.2833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,278,0.006,0.027,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,276,0.006,NA,grad,971,46.8607
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,563,0.006,NA,grad,971,46.8607
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1307,0.006,0.103,grad,26,57.1667
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,170,0.007,0.038,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,603,0.007,NA,grad,971,46.8607
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,60,0.007,0.066,grad,10,51.641
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,252,0.007,0.032,grad,-2,53.2833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,49,0.008,0.073,grad,10,51.641
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,103,0.009,0.05,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,308,0.009,0.025,grad,39,52.0833
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,0.01,NA,grad,88,10.4606
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 summer survival,508,0.01,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 summer survival,444,0.01,NA,grad,124,42.4167
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,70,0.01,0.059,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,194,0.01,0.035,grad,39,52.0833
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-1 summer survival,112,0.01,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,0.01,0.05,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,0.01,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,0.01,0.08,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.6333,Hindwing width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,0.01069,NA,grad,33,55.6333
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,209,0.011,0.035,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,342,0.013,NA,grad,971,46.8607
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,498,0.013,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,147,0.013,0.041,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,284,0.014,NA,grad,971,46.8607
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1307,0.014,0.103,grad,26,57.1667
+36,Parus major,V,Endo,51.7773,Egg weight,Viability,2043,0.014,0.033,grad,113,51.7773
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,171,0.015,0.036,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,212,0.015,0.034,grad,-2,53.2833
+93,Psilocorsis quercicella,I,Ecto,39.0369,pupal mass,"Survival - adult mortality, 1st generation",323,0.016,0.008,grad,184,39.0369
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,289,0.016,0.029,grad,39,52.0833
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen length,survival,172,0.016,NA,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.6333,Hindwing length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,0.016414,NA,grad,33,55.6333
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,150,0.017,0.037,grad,39,52.0833
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,89,0.017,0.071,grad,121,57.814
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,203,0.017,0.035,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,474,0.018,NA,grad,971,46.8607
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,246,0.018,0.032,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,435,0.019,NA,grad,971,46.8607
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,98,0.019,0.05,grad,121,57.814
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,0.02,NA,grad,88,10.4606
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 summer survival,323,0.02,NA,grad,124,42.4167
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,173,0.02,0.036,grad,39,52.0833
+79,Phasianus colchicus,V,Endo,55.7232,wing length,male survival,38,0.02,NA,grad,17,55.7232
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,0.02,0.07,grad,-17,23.4333
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,36,0.021,0.058,grad,121,57.814
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,46,0.021,0.07,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,301,0.021,0.029,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,157,0.021,0.04,grad,39,52.0833
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,55,0.022,0.159,grad,121,57.814
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,71,0.022,0.059,grad,10,51.641
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,285,0.023,0.03,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,664,0.023,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,186,0.024,0.035,grad,39,52.0833
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,96,0.024,0.019,grad,121,57.814
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,83,0.024,0.056,grad,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,98,0.024,0.051,grad,10,51.641
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,210,0.025,0.035,grad,-2,53.2833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,71,0.027,0.061,grad,10,51.641
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,172,0.027,0.038,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,68,0.029,NA,grad,8,25.745
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,96,0.029,0.017,grad,121,57.814
+11,Calopteryx splendens,I,Ecto,55.6333,Thorax width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,0.029132,NA,grad,33,55.6333
+11,Calopteryx splendens,I,Ecto,55.6333,Abdomen length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,0.029684,NA,grad,33,55.6333
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 winter survival,230,0.03,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 winter survival,306,0.03,NA,grad,124,42.4167
+132,Anolis sagrei,V,Ecto,23.4833,hindlimb length,survival,171,0.03,0.015,grad,-1,23.4833
+79,Phasianus colchicus,V,Endo,55.7232,bill length,female survival,54,0.03,NA,grad,17,55.7232
+79,Phasianus colchicus,V,Endo,55.7232,wing length,female survival,54,0.03,NA,grad,17,55.7232
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,0.03,0.07,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,0.03,0.07,grad,-17,23.4333
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,285,0.031,NA,grad,971,46.8607
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,71,0.031,0.054,grad,10,51.641
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,70,0.031,0.061,grad,10,51.641
+11,Calopteryx splendens,I,Ecto,55.7,Abdomen length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,0.031032,NA,grad,10,55.7
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,182,0.032,0.036,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,292,0.033,0.025,grad,39,52.0833
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,44,0.0338474,NA,grad,8,25.745
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,524,0.034,NA,grad,971,46.8607
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,189,0.035,0.036,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,285,0.035,NA,grad,971,46.8607
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,72,0.035,0.06,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,144,0.035,0.038,grad,39,52.0833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,149,0.036,0.041,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,267,0.036,0.031,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,250,0.036,0.032,grad,-2,53.2833
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),172,0.037727526,0.19937037,grad,593,42.55
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,320,0.038,0.026,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,197,0.038,0.035,grad,-2,53.2833
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.0384,0.0191,grad,121,57.814
+11,Calopteryx splendens,I,Ecto,55.6333,Mass,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,0.039124,NA,grad,33,55.6333
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,82,0.04,NA,grad,8,25.745
+132,Anolis sagrei,V,Ecto,23.4833,forlimb length,survival,171,0.04,0.12,grad,-1,23.4833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,177,0.04,0.038,grad,-2,53.2833
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-2 winter survival,105,0.04,NA,grad,124,42.4167
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1299,0.041,0.09,grad,26,57.1667
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,498,0.042,NA,grad,971,46.8607
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,563,0.043,NA,grad,971,46.8607
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,68,0.043,0.055,grad,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,95,0.043,0.052,grad,10,51.641
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.0434,0.0181,grad,121,57.814
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,44,0.043956,NA,grad,8,25.745
+93,Psilocorsis quercicella,I,Ecto,39.0369,pupal mass,"Survival - adult mortality, 1st generation",204,0.044,0.01,grad,184,39.0369
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,268,0.045,0.031,grad,-2,53.2833
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,277,0.046,0.028,grad,39,52.0833
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,21,0.046,0.116,grad,10,51.641
+11,Calopteryx splendens,I,Ecto,55.6333,Thorax length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,0.046468,NA,grad,33,55.6333
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,280,0.047,0.03,grad,-2,53.2833
+11,Calopteryx splendens,I,Ecto,55.7,Thorax length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,0.047668,NA,grad,10,55.7
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,280,0.048,0.027,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,199,0.048,0.035,grad,-2,53.2833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak width,juvenile survival,498,0.049,NA,grad,971,46.8607
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,176,0.049,0.038,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,34,0.0490539,NA,grad,8,25.745
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 summer survival,374,0.05,NA,grad,124,42.4167
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,298,0.05,0.025,grad,39,52.0833
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-1 winter survival,107,0.05,NA,grad,124,42.4167
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,83,0.051,0.053,grad,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,91,0.051,0.053,grad,10,51.641
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,117,0.051,0.047,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,51,0.0512,NA,grad,8,25.745
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,272,0.054,0.03,grad,-2,53.2833
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,183,0.055,0.035,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,140,0.055,0.042,grad,-2,53.2833
+93,Psilocorsis quercicella,I,Ecto,39.0369,pupal mass,"Survival - adult mortality, 2nd generation",273,0.056,0.096,grad,184,39.0369
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,435,0.056,NA,grad,971,46.8607
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,239,0.056,0.032,grad,-2,53.2833
+11,Calopteryx splendens,I,Ecto,55.6333,Thorax length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,0.056529,NA,grad,33,55.6333
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),162,0.056992962,0.10848723,grad,593,42.55
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,67,0.057,0.06,grad,10,51.641
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,0.06,NA,grad,88,10.4606
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1183,0.06,0.071,grad,26,57.1667
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,252,0.06,0.031,grad,-2,53.2833
+79,Phasianus colchicus,V,Endo,55.7232,tarsus length,male survival,38,0.06,NA,grad,17,55.7232
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,0.06,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,0.06,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culd,survival,NA,0.06,0.08,grad,-17,23.4333
+74,Oncorhynchus nerka,V,Ecto,59.3217,body depth,Male survival,419,0.061,0.022,grad,19,59.3217
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,36,0.062,0.084,grad,10,51.641
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),452,0.062463034,0.17362483,grad,232,43.6667
+37,Stegastes partitus,V,Ecto,23.6725,Asymptotic body size (Tlmax),Longevity,87,0.063,0.052,grad,0,23.6725
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,72,0.064,0.06,grad,10,51.641
+119,Aquarius remigis,I,Ecto,45.5167,abdomen length,longevity,50,0.065,NA,grad,31,45.5167
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,100,0.065,0.05,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,102,0.065,0.05,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,208,0.065,0.034,grad,-2,53.2833
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),143,0.065809118,0.43330832,grad,232,43.6667
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,193,0.066,0.036,grad,-2,53.2833
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,43,0.067,0.128,grad,121,57.814
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,79,0.069,0.057,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,196,0.069,0.035,grad,39,52.0833
+79,Phasianus colchicus,V,Endo,55.7232,bill width,female survival,54,0.07,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-1 winter survival,142,0.07,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature + mature fish),Age-1 summer survival,257,0.07,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,0.07,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,0.07,0.06,grad,-17,23.4333
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,146,0.071,0.041,grad,39,52.0833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,137,0.071,0.043,grad,-2,53.2833
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,66,0.073,NA,grad,8,25.745
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.0733,0.0292,grad,121,57.814
+158,Parus major,V,Endo,52.0833,adult body mass,survival to the next breeding season,167,0.074,0.036,grad,39,52.0833
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,164,0.075,0.026,grad,121,57.814
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,147,0.075477,NA,grad,8,25.745
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,140,0.076,0.041,grad,-2,53.2833
+11,Calopteryx splendens,I,Ecto,55.7,Forewing length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,0.076229,NA,grad,10,55.7
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.0765,0.0308,grad,121,57.814
+11,Calopteryx splendens,I,Ecto,55.7,Hindwing width,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,0.077862,NA,grad,10,55.7
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,563,0.078,NA,grad,971,46.8607
+36,Parus major,V,Endo,51.7773,Egg weight,Viability,1220,0.078,0.042,grad,113,51.7773
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,45,0.079,0.076,grad,10,51.641
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tarsus,survival,NA,0.08,0.09,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,0.08,0.07,grad,-17,23.4333
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,81,0.082,0.056,grad,10,51.641
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,165,0.084,0.039,grad,-2,53.2833
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),190,0.085026117,0.32691836,grad,593,42.55
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,261,0.087,0.031,grad,-2,53.2833
+75,Salmo salar,V,Ecto,42.4167,body length (immature + mature fish),Age-1 summer survival,267,0.09,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,0.09,0.08,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,35,0.09078,NA,grad,8,25.745
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,48,0.091,0.047,grad,121,57.814
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,176,0.091,0.035,grad,-2,53.2833
+158,Parus major,V,Endo,53.2833,adult body mass,survival to the next breeding season,192,0.092,0.035,grad,-2,53.2833
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1119,0.093,0.072,grad,26,57.1667
+11,Calopteryx splendens,I,Ecto,55.7,Forewing length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,0.097836,NA,grad,10,55.7
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,414,0.099,NA,grad,971,46.8607
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,41,0.099,NA,grad,8,25.745
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,0.1,NA,grad,88,10.4606
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-2 winter survival,64,0.1,NA,grad,124,42.4167
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,339,0.102,NA,grad,971,46.8607
+11,Calopteryx splendens,I,Ecto,55.6333,Abdomen length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,0.102519,NA,grad,33,55.6333
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,72,0.104,0.056,grad,10,51.641
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1276,0.106,0.066,grad,26,57.1667
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,34,0.106743,NA,grad,8,25.745
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,342,0.109,NA,grad,971,46.8607
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,500,0.109,0.187,grad,26,57.1667
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1093,0.0233,grad,121,57.814
+11,Calopteryx splendens,I,Ecto,55.7,Abdomen length,"Minimum lifespan in field (a measure of survival), H_je «_Å population",992,0.109458,NA,grad,10,55.7
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,895,0.11,0.078,grad,26,57.1667
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,95,0.11,NA,grad,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,35,0.11,NA,grad,8,25.745
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail,survival,NA,0.11,0.1,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,0.11,0.11,grad,-17,23.4333
+73,Lacerta agilis,V,Ecto,57.3947,Female mass,Survival rate of offspring (proportion),19,0.111,0.507,grad,5,57.3947
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,112,0.114,0.037,grad,121,57.814
+158,Parus major,V,Endo,53.2833,tarsus length,survival to the next breeding season,222,0.114,0.032,grad,-2,53.2833
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),243,0.114321351,0.17369939,grad,593,42.55
+11,Calopteryx splendens,I,Ecto,55.6333,Abdomen length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,0.116754,NA,grad,33,55.6333
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,46,0.117,0.063,grad,121,57.814
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),96,0.117496208,0.43465373,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.55,chick tarsus length,survival (recruitment to the breeding population),190,0.117628875,0.32669232,grad,593,42.55
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Length,juvenile survival,474,0.118,NA,grad,971,46.8607
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1794,0.119,0.063,grad,26,57.1667
+79,Phasianus colchicus,V,Endo,55.7232,tail length,male survival,38,0.12,NA,grad,17,55.7232
+79,Phasianus colchicus,V,Endo,55.7232,tail length,male survival,29,0.12,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-1 summer survival,182,0.12,NA,grad,124,42.4167
+73,Lacerta agilis,V,Ecto,57.3947,Female condition,Survival rate of offspring (absolute recruitment),23,0.122,0.452,grad,5,57.3947
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),137,0.125487929,0.33358189,grad,593,42.55
+93,Psilocorsis quercicella,I,Ecto,39.0369,pupal mass,"Survival - adult mortality, 2nd generation",1470,0.127,0.018,grad,184,39.0369
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,92,0.129,0.051,grad,39,52.0833
+75,Salmo salar,V,Ecto,42.4167,body length (immature fish),Age-1 summer survival,174,0.13,NA,grad,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-2 winter survival,142,0.13,NA,grad,124,42.4167
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing length,survival,223,0.131,NA,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,71,0.133864,NA,grad,8,25.745
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,43,0.135,0.076,grad,10,51.641
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,43,0.137,0.133,grad,121,57.814
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,33,0.14,0.473,grad,184,41.9586
+11,Calopteryx splendens,I,Ecto,55.6333,Forewing length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,0.140143,NA,grad,33,55.6333
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,147,0.141723,NA,grad,8,25.745
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1419,0.0341,grad,121,57.814
+37,Stegastes partitus,V,Ecto,23.7429,Asymptotic body size (Tlmax),Longevity,66,0.145,0.05,grad,-24,23.7429
+11,Calopteryx splendens,I,Ecto,55.7,Hindwing width,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,0.147555,NA,grad,10,55.7
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1491,0.033,grad,121,57.814
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,55,0.15,0.18,grad,121,57.814
+51,Poecilia reticulata,V,Ecto,10.4606,Body Size,survival,NA,0.15,NA,grad,88,10.4606
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,0.15,0.19,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,34,0.1523655,NA,grad,8,25.745
+11,Calopteryx splendens,I,Ecto,55.6333,Forewing width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",374,0.153125,NA,grad,33,55.6333
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),276,0.157813437,0.33280232,grad,29,42.5667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1276,0.16,0.066,grad,26,57.1667
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,31,0.16,0.085,grad,10,51.641
+79,Phasianus colchicus,V,Endo,55.7232,bill depth,female survival,31,0.16,NA,grad,17,55.7232
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culw,survival,NA,0.16,0.08,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,0.16,0.07,grad,-17,23.4333
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,79,0.164,0.054,grad,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,182,0.164,0.034,grad,39,52.0833
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,30,0.166,0.089,grad,10,51.641
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1675,0.0317,grad,121,57.814
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1675,0.0288,grad,121,57.814
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,89,0.169,0.069,grad,121,57.814
+158,Parus major,V,Endo,51.641,adult body mass,survival to the next breeding season,68,0.169,0.055,grad,10,51.641
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1073,0.17,0.11,grad,26,57.1667
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),172,0.170191358,0.20053371,grad,593,42.55
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1737,0.0314,grad,121,57.814
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen length,survival,223,0.176,NA,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.6333,Forewing width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",785,0.177147,NA,grad,33,55.6333
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.1782,0.0381,grad,121,57.814
+79,Phasianus colchicus,V,Endo,55.7232,bill depth,female survival,54,0.18,NA,grad,17,55.7232
+79,Phasianus colchicus,V,Endo,55.7232,bill width,female survival,31,0.18,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature + mature fish),Age-2 winter survival,191,0.18,NA,grad,124,42.4167
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,cull,survival,NA,0.18,0.06,grad,-17,23.4333
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,15,0.184,0.134,grad,39,52.0833
+144,Carpodacus mexicanus,V,Endo,46.8607,Beak Depth,juvenile survival,276,0.185,NA,grad,971,46.8607
+75,Salmo salar,V,Ecto,42.4167,growth (immature fish),Age-1 winter survival,177,0.19,NA,grad,124,42.4167
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),205,0.192143385,0.24575099,grad,232,43.6667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1119,0.194,0.072,grad,26,57.1667
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen width,survival,172,0.194,NA,grad,-17,23.4333
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),145,0.199318326,0.28016233,grad,593,42.55
+79,Phasianus colchicus,V,Endo,55.7232,bill width,female survival,30,0.2,NA,grad,17,55.7232
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1225,0.202,0.068,grad,26,57.1667
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail length,survival,223,0.202,NA,grad,-17,23.4333
+11,Calopteryx splendens,I,Ecto,55.6333,Forewing length,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,0.202397,NA,grad,33,55.6333
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),237,0.203348995,0.40484303,grad,232,43.6667
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,culmen depth,survival,170,0.205,NA,grad,-17,23.4333
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,899,0.206,0.116,grad,26,57.1667
+79,Phasianus colchicus,V,Endo,55.7232,weight,male survival,29,0.21,NA,grad,17,55.7232
+75,Salmo salar,V,Ecto,42.4167,condition factor (immature fish),Age-2 winter survival,121,0.21,NA,grad,124,42.4167
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.2103,0.0347,grad,121,57.814
+61,Negaprion brevirostris,V,Ecto,25.745,condition factor,survival,34,0.210654,NA,grad,8,25.745
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,793,0.211,0.097,grad,26,57.1667
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),230,0.211055876,0.20573762,grad,232,43.6667
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.2114,0.0336,grad,121,57.814
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,27,0.214,0.163,grad,121,57.814
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),205,0.215026664,0.23219362,grad,232,43.6667
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,46,0.222,0.159,grad,184,41.9586
+11,Calopteryx splendens,I,Ecto,55.6333,Forewing width,"Minimum lifespan in field (a measure of survival), Klingav_ls_n population",486,0.222877,NA,grad,33,55.6333
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,65,0.224,0.372,grad,121,57.814
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,93,0.227,0.041,grad,184,41.9586
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,975,0.227,0.115,grad,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1194,0.233,0.069,grad,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1225,0.233,0.069,grad,26,57.1667
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),114,0.236961024,0.41566047,grad,29,42.5667
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,48,0.239,0.145,grad,184,41.9586
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1183,0.244,0.071,grad,26,57.1667
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,33,0.244,0.197,grad,121,57.814
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,899,0.245,0.115,grad,26,57.1667
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing length,survival,170,0.248,NA,grad,-17,23.4333
+37,Stegastes partitus,V,Ecto,23.7903,Asymptotic body size (Tlmax),Longevity,89,0.251,0.052,grad,-30,23.7903
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,793,0.256,0.097,grad,26,57.1667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),114,0.268817694,0.41649519,grad,29,42.5667
+11,Calopteryx splendens,I,Ecto,55.7,Mass,"Minimum lifespan in field (a measure of survival), H_je «_Å population",453,0.273097,NA,grad,10,55.7
+73,Lacerta agilis,V,Ecto,57.3947,Female condition,Survival rate of offspring (proportion),23,0.276,0.485,grad,5,57.3947
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1530,0.279,0.092,grad,26,57.1667
+79,Phasianus colchicus,V,Endo,55.7232,bill length,female survival,30,0.29,NA,grad,17,55.7232
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1299,0.292,0.091,grad,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1267,0.296,0.081,grad,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,425,0.299,0.108,grad,26,57.1667
+61,Negaprion brevirostris,V,Ecto,25.745,body length,survival,35,0.299335,NA,grad,8,25.745
+79,Phasianus colchicus,V,Endo,55.7232,tail length,male survival,32,0.3,NA,grad,17,55.7232
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,425,0.304,0.108,grad,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1267,0.305,0.081,grad,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1194,0.313,0.069,grad,26,57.1667
+79,Phasianus colchicus,V,Endo,55.7232,tarsus length,female survival,54,0.32,NA,grad,17,55.7232
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,wing,survival,NA,0.32,0.2,grad,-17,23.4333
+61,Negaprion brevirostris,V,Ecto,25.745,growth,survival,35,0.322044,NA,grad,8,25.745
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,975,0.323,0.115,grad,26,57.1667
+79,Phasianus colchicus,V,Endo,55.7232,tarsus length,male survival,32,0.34,NA,grad,17,55.7232
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,500,0.352,0.187,grad,26,57.1667
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.3537,0.0535,grad,121,57.814
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.36,0.0656,grad,121,57.814
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,895,0.36,0.078,grad,26,57.1667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),127,0.364413926,0.31023554,grad,29,42.5667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1794,0.373,0.063,grad,26,57.1667
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.3764,0.0549,grad,121,57.814
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.3773,0.083,grad,121,57.814
+79,Phasianus colchicus,V,Endo,55.7232,tarsus length,female survival,31,0.38,NA,grad,17,55.7232
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length,survival,1530,0.392,0.092,grad,26,57.1667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),163,0.400724267,0.36490733,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),34,0.406236406,0.65875748,grad,29,42.5667
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),372,0.407573682,0.21049808,grad,232,43.6667
+79,Phasianus colchicus,V,Endo,55.7232,tarsus length,female survival,30,0.41,NA,grad,17,55.7232
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),362,0.411466875,0.15625373,grad,232,43.6667
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.4364,0.0525,grad,121,57.814
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),452,0.439252574,0.17607498,grad,232,43.6667
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),475,0.443829345,0.20349114,grad,232,43.6667
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),205,0.456244413,0.30693615,grad,232,43.6667
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),241,0.461509356,0.35287791,grad,29,42.5667
+73,Lacerta agilis,V,Ecto,57.3947,Offspring mass,Survival rate of offspring (proportion),19,0.465,0.368,grad,5,57.3947
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),237,0.471961438,0.44449167,grad,232,43.6667
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),127,0.472905376,0.35811593,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.55,chick weight,survival (recruitment to the breeding population),87,0.491052927,0.54524677,grad,593,42.55
+73,Lacerta agilis,V,Ecto,57.3947,Offspring mass,Survival rate of offspring (absolute recruitment),19,0.492,0.516,grad,5,57.3947
+64,Ficedula albicollis,V,Endo,57.1667,fledgling body condition,survival,1073,0.519,0.11,grad,26,57.1667
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,0.5292,0.0637,grad,121,57.814
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),276,0.530603121,0.32265597,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),189,0.538158964,0.28617616,grad,29,42.5667
+15,Parus caeruleus,V,Endo,43.6667,chick tarsus length,survival (recruitment to the breeding population),143,0.547515493,0.3945694,grad,232,43.6667
+73,Lacerta agilis,V,Ecto,57.3947,Offspring mass,Survival rate of offspring (absolute recruitment),23,0.569,0.309,grad,5,57.3947
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),228,0.574041341,0.33576417,grad,232,43.6667
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,99,0.598,0.152,grad,121,57.814
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,114,0.608,0.176,grad,121,57.814
+101,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,tail length,survival,172,0.618,NA,grad,-17,23.4333
+73,Lacerta agilis,V,Ecto,57.3947,Offspring mass,Survival rate of offspring (proportion),23,0.624,0.257,grad,5,57.3947
+67,Ovis aries,V,Endo,57.814,body weight - juveniles,survival,64,0.653,0.339,grad,121,57.814
+150,Chrysemys picta,V,Ecto,41.9586,Egg mass,clutch survival,15,0.768,0.05,grad,184,41.9586
+15,Parus caeruleus,V,Endo,43.6667,chick weight,survival (recruitment to the breeding population),136,0.883344416,0.41274833,grad,232,43.6667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),108,0.931262018,1.21303204,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),180,1.199582406,0.85969727,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.5667,chick tarsus length,survival (recruitment to the breeding population),6,1.79032751,2.11151405,grad,29,42.5667
+15,Parus caeruleus,V,Endo,42.5667,chick weight,survival (recruitment to the breeding population),6,3.796211811,4.93019727,grad,29,42.5667
+119,Aquarius remigis,I,Ecto,45.5167,total body length,longevity,50,-0.135,NA,grad,31,45.5167
+119,Aquarius remigis,I,Ecto,45.5167,total body length,longevity,60,-0.279,NA,grad,31,45.5167
+14,Aquarius remigis,I,Ecto,45.5405,total length,pre-reproductive survival,476,0.01,NA,grad,167,45.5405
+14,Aquarius remigis,I,Ecto,45.5405,total length,reproductive lifespan,64,0.07,NA,grad,167,45.5405
+14,Aquarius remigis,I,Ecto,45.5405,total length,pre-reproductive survival,484,-0.3,NA,grad,167,45.5405
+14,Aquarius remigis,I,Ecto,45.5405,total length,reproductive lifespan,89,0.04,NA,grad,167,45.5405
+14,Aquarius remigis,I,Ecto,45.5444,total length,pre-reproductive survival,209,0.1,NA,grad,190,45.5444
+14,Aquarius remigis,I,Ecto,45.5444,total length,reproductive lifespan,57,-0.03,NA,grad,190,45.5444
+14,Aquarius remigis,I,Ecto,45.5444,total length,pre-reproductive survival,146,0.28,NA,grad,190,45.5444
+14,Aquarius remigis,I,Ecto,45.5444,total length,reproductive lifespan,34,0.12,NA,grad,190,45.5444
+28,Calopteryx splendens,I,Ecto,55.7,total length,survival,51,-0.06,NA,grad,10,55.7
+23,Carpodacus mexicanus,V,Endo,32.6042,body mass,overwinter survival,172,-0.13,NA,grad,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,body mass,overwinter survival,91,-0.27,NA,grad,201,32.6042
+23,Carpodacus mexicanus,V,Endo,42.2791,body mass,overwinter survival,347,0,NA,grad,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,body mass,overwinter survival,188,0.13,NA,grad,268,42.2791
+23,Carpodacus mexicanus,V,Endo,48.8573,body mass,overwinter survival,171,-0.08,NA,grad,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,body mass,overwinter survival,120,-0.1,NA,grad,1834,48.8573
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.76019,NA,grad,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0244,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.48565,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.07063,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.06525,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.48922,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.31013,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.18342,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.06241,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.10063,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.4702,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.32635,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.16288,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.08333,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.2065,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.33595,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.13048,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0678,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.24757,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.29333,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.33265,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.17246,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.23778,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.1484,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.0604,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.0972,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01453,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.02855,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.19704,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.05841,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03376,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.10666,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02945,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.16492,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.13631,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.05514,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.15425,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01217,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.11975,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0989,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.05658,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.24324,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.1715,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.1069,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.03949,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.05427,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.04959,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.10902,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03202,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.03821,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.22566,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0363,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.08989,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00195,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03002,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.04942,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02547,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.00734,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.03318,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02412,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.0093,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.00043,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.0762,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.0717,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.02086,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.03187,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.05358,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00901,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02576,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.00629,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01811,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0546,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00799,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.09575,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.01493,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03633,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.03888,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00304,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.04691,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.02341,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.09943,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.03597,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.09271,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02638,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01097,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.04946,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00646,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.05053,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00434,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.05521,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.10193,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.04037,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00934,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03542,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.15615,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.14078,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.68673,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.58541,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.4347,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.27225,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.1588,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.29457,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.36439,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.31563,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.05987,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.31615,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.39997,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.30993,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.58947,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.11523,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.40303,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.14894,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.1582,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.15221,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.08302,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.33271,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.11174,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.09221,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.26978,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.06861,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.04448,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.45345,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.15468,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03094,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.22565,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.08977,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.12812,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.10445,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03685,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.5713,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.01963,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.11637,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01458,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.08802,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.19843,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0199,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.17666,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03989,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.11378,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.16369,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02452,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.04575,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01048,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.15056,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.08654,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01128,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00798,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01776,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03326,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02101,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.0386,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.01583,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.05529,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.01026,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.09312,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.09524,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.00716,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.06672,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.0405,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.11156,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.59434,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.15742,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02767,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.24795,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.06196,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.02755,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.01107,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.07137,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.04613,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.09323,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.26732,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.00753,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.03331,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.00179,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.08266,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0.05337,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.17722,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-8.00E-05,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.04829,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,-0.23683,NA,dif,272,57.0033
+107,Cervus elaphus,V,Endo,57.0033,birth weight,annual survival,NA,0,NA,dif,272,57.0033
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.071207305,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,-0.026540087,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.133611211,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,-0.01186449,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.115111445,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.027768772,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.000730647,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.041665476,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.067547753,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.062168052,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.010417141,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,-0.016791235,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.032080331,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.106011104,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.061371067,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.044285372,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.031392601,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.06640524,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.055181178,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,-0.00648552,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.062170248,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.036140944,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.038735252,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.073479152,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.044808324,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.078357493,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.015603874,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.016830689,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.032906799,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.037593507,NA,dif,-11,57.0412
+152,Cervus elaphus,V,Endo,57.0412,birth weight,survival,NA,0.006932351,NA,dif,-11,57.0412
+106,Crocidura russula,V,Endo,45.5167,body mass,viability selection,71,0.12,0.07,dif,696,45.5167
+106,Crocidura russula,V,Endo,45.5167,body mass,viability selection,64,0.04,0.3,dif,696,45.5167
+106,Crocidura russula,V,Endo,45.5167,body mass,viability selection,76,0.09,0.21,dif,696,45.5167
+106,Crocidura russula,V,Endo,45.5167,body mass,viability selection,76,0.01,0.06,dif,696,45.5167
+106,Crocidura russula,V,Endo,45.5167,body mass,viability selection,52,0.29,0.07,dif,696,45.5167
+106,Crocidura russula,V,Endo,45.5167,body mass,viability selection,65,0.03,0.22,dif,696,45.5167
+109,Esox lucius,V,Ecto,54.37,body length,survival,150,0.312038771,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,182,0.146671372,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,125,0.010096664,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,84,0.276398199,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,98,-0.171971452,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,143,0.143376632,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,194,0.037083653,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,248,0.118054634,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,225,0.208596848,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,272,0.182944874,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,206,-0.013407552,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,123,0.102359502,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,64,0.141188596,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,95,0.114339762,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,242,0.456432223,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,303,0.312592956,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,252,0.122612796,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,271,0.104881441,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,338,0.232106043,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,170,0.129487571,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,116,0.080874716,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,114,0.09912387,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,98,0.030100506,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,35,0.18124958,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,81,0.392213639,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,36,-0.035704205,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,80,0.241132619,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,34,-0.17470713,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,18,0.186601625,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,18,0.22233095,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,31,0.331013944,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,31,0.229519189,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,64,0.247375891,NA,dif,40,54.37
+109,Esox lucius,V,Ecto,54.37,body length,survival,61,0.173318789,NA,dif,40,54.37
+65,Ficedula albicollis,V,Endo,57.1667,fledgling mass,survival,914,0.2442,NA,dif,26,57.1667
+65,Ficedula albicollis,V,Endo,57.1667,fledgling mass,survival,1183,0.1809,NA,dif,26,57.1667
+65,Ficedula albicollis,V,Endo,57.1667,fledgling mass,survival,1364,0.3064,NA,dif,26,57.1667
+65,Ficedula albicollis,V,Endo,57.1667,fledgling mass,survival,1322,0.2618,NA,dif,26,57.1667
+65,Ficedula albicollis,V,Endo,57.1667,fledgling mass,survival,1443,0.0666,NA,dif,26,57.1667
+65,Ficedula albicollis,V,Endo,57.1667,fledgling mass,survival,1334,0.267,NA,dif,26,57.1667
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,82,-0.017,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,42,-0.23,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,97,-0.094,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,66,-0.027,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,95,0.022,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,68,-0.0083,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,63,-0.086805256,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,66,-0.115770768,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,71,-0.056592587,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,80,-0.114658356,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,147,0.124999443,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,51,-0.063,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,35,-0.32,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,58,-0.36,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,41,-0.18,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,70,-0.27,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,35,-0.00134272,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,35,-0.056511789,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,34,-0.031634929,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,34,-0.044497975,NA,dif,8,25.745
+61,Negaprion brevirostris,V,Ecto,25.745,body mass,survival,44,0.027995147,NA,dif,8,25.745
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1689,-0.028638768,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,2725,-0.028080826,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1704,-0.058169484,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1246,-0.024917143,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1619,-0.014767977,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1803,-0.084901556,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1443,-0.134879253,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1609,-0.054523025,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,2264,-0.064706569,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1519,-0.089306109,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,3170,-0.036295826,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1161,-0.114693044,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1085,-0.063224877,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,599,-0.002419959,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1514,-0.041515614,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1633,-0.104123578,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,764,-0.300351701,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1049,-0.097113132,NA,dif,19,59.3217
+111,Oncorhynchus nerka,V,Ecto,59.3217,body size-at-maturity,survival,1258,-0.130018194,NA,dif,19,59.3217
+67,Ovis aries,V,Endo,57.814,body weight - adult females,survival,82,NA,NA,dif,121,57.814
+67,Ovis aries,V,Endo,57.814,body weight -  adult males,survival,10,NA,NA,dif,121,57.814
+83,Ovis aries,V,Endo,57.814,birth weight,neonatal survival,NA,NA,NA,dif,121,57.814
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,611,0.095,0.175,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,580,0.405,0.239,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,481,0.06,0.168,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,294,0.019,0.171,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,296,-0.208,0.229,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,137,0.164,0.187,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,539,0.361,0.163,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,526,0.04,0.143,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,769,0.361,0.176,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,508,0.161,0.134,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,511,0.536,0.231,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,527,0.184,0.095,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,839,0.228,0.116,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1107,0.071,0.111,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,979,0.056,0.083,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1412,0.008,0.07,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1463,0.222,0.107,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1184,0.244,0.062,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,2091,0.066,0.082,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1115,0.296,0.129,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1166,0.288,0.083,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1167,0.034,0.078,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1862,0.149,0.061,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1215,0.506,0.113,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1233,0.353,0.078,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1108,0.187,0.128,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,581,0.332,0.099,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1283,0.136,0.07,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1934,0.109,0.063,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1624,0.331,0.082,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1663,0.271,0.059,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1472,0.033,0.078,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1923,0.155,0.071,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1598,0.28,0.094,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1059,0.438,0.124,dif,114,51.7667
+62,Parus major,V,Endo,51.7667,fledgling mass,survival,1167,0.071,0.068,dif,114,51.7667
+65,Parus major,V,Endo,57.1667,fledgling mass,survival,846,0.0824,NA,dif,26,57.1667
+65,Parus major,V,Endo,57.1667,fledgling mass,survival,1547,0.0664,NA,dif,26,57.1667
+65,Parus major,V,Endo,57.1667,fledgling mass,survival,1004,-0.0188,NA,dif,26,57.1667
+65,Parus major,V,Endo,57.1667,fledgling mass,survival,1374,0.1548,NA,dif,26,57.1667
+65,Parus major,V,Endo,57.1667,fledgling mass,survival,1136,0.3815,NA,dif,26,57.1667
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 winter survival,230,0.01,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 winter survival,640,-0.02,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 winter survival,379,0,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 winter survival,306,0.02,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 winter survival,751,-0.01,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 winter survival,469,0,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-2 winter survival,121,-0.01,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-2 winter survival,96,-0.14,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-2 winter survival,173,-0.27,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-2 winter survival,191,-0.15,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-2 winter survival,174,-0.07,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-2 winter survival,242,-0.27,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 summer survival,197,-0.03,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 summer survival,174,0.1,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 summer survival,374,0.04,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature fish),Age-1 summer survival,323,0.02,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 summer survival,282,-0.03,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 summer survival,267,0.08,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 summer survival,508,0.01,NA,dif,124,42.4167
+75,Salmo salar,V,Ecto,42.4167,body mass (immature + mature fish),Age-1 summer survival,444,0,NA,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,0+ fall to 0+ prewinter survival -accounting for emigration,527,-0.058,0.032,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,0+ prewinter to 1+ spring survival -accounting for emigration,306,0.045,0.049,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ spring to 1+ summer survival -accounting for emigration,261,-0.036,0.033,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ summer to 1+ fall survival -accounting for emigration,293,-0.023,0.034,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ fall to 1+ prewinter survival -accounting for emigration,298,-0.09,0.048,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ prewinter to 2+ summer survival -accounting for emigration,157,0.075,0.037,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,0+ fall to 0+ prewinter survival -accounting for emigration,432,0.023,0.029,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,0+ prewinter to 1+ spring survival -accounting for emigration,368,0.029,0.022,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ spring to 1+ summer survival -accounting for emigration,360,0.021,0.029,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ summer to 1+ fall survival -accounting for emigration,323,0.041,0.022,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ fall to 1+ prewinter survival -accounting for emigration,281,-0.022,0.037,dif,124,42.4167
+86,Salmo salar,V,Ecto,42.4167,body mass,1+ prewinter to 2+ summer survival -accounting for emigration,111,0.029,0.039,dif,124,42.4167
+110,Salmo trutta,V,Ecto,61.25,body length,survival,82,-0.498076723,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,217,-0.172282513,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,248,0.09212903,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,125,-0.161300868,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,94,-0.052879517,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,143,-0.076833007,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,116,-0.001243603,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,80,0.021137501,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,233,-0.172480233,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,68,-0.141280181,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,94,-0.011359771,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,106,0.081211295,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,349,-0.13878148,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,412,0.058375139,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,127,0.033586503,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,92,0.029506182,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,30,-0.135720633,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,281,-0.27218002,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,317,-0.144646756,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,114,-0.076704161,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,87,-0.045350953,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,317,-0.018681046,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,330,0.004672588,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,211,0.005711067,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,70,0.165270979,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,339,-0.144287056,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,308,0.009511024,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,218,-0.081019464,NA,dif,437,61.25
+110,Salmo trutta,V,Ecto,61.25,body length,survival,65,0.07699615,NA,dif,437,61.25
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.1220348,0.070577295,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.1972843,0.059355513,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.0109877,0.056375466,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.0445587,0.046731907,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.0389769,0.047608129,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.1040599,0.055179984,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.0402933,0.04859803,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.0665379,0.041816702,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.0255888,0.052349658,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,-0.0578901,0.054703926,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,0.065868,0.117157412,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Wing length,Abbual survival,NA,-0.0372921,0.170615441,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.1500413,0.06946925,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.5128938,0.061511169,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,-0.1142,0.05636817,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.2002411,0.047115955,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,-0.0418552,0.047502726,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.0678045,0.053862766,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.1828491,0.049609273,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.1993815,0.042279803,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,-0.000944377,0.048120338,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,-0.0246668,0.050915167,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,-0.0128447,0.101555066,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tail length,Abbual survival,NA,0.1179346,0.146953421,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,-0.2755929,0.091711044,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,-0.2038392,0.063673141,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,0.4361756,0.078795183,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,-0.1051686,0.05255415,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,0.51526,0.090824587,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,-0.1442724,0.079331347,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,0.034637,0.041243842,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,0.1369134,0.041178183,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,-0.1759534,0.061780667,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,0.1244578,0.064577674,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,-0.0186712,0.135998198,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Tarsus length,Abbual survival,NA,0.0610706,0.154471921,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.0311103,0.07489808,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.4941281,0.062672896,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,-0.8050861,0.069595234,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.1236144,0.055261324,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.978617,0.082722229,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,1.034467,0.076676113,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.2286868,0.057004839,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,-0.0363153,0.049341735,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,-0.0852332,0.064174353,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.1118091,0.061154561,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,0.0307458,0.127813956,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill length,Abbual survival,NA,-0.1720405,0.210267341,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.2680112,0.078753587,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,-0.1363092,0.072929494,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.9945964,0.078225481,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.0113163,0.056685143,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,-0.0706124,0.049526518,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.1730018,0.046744756,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.0468211,0.046578266,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.1361281,0.042451737,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.1067431,0.051047248,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,-0.0437306,0.051137299,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,0.0862208,0.114992827,dif,1047,41.2167
+145,Petrochelidon pyrrhonota,V,Endo,41.2167,Bill width,Abbual survival,NA,-0.053796,0.207840227,dif,1047,41.2167
+28,Calopteryx splendens,I,Ecto,55.6333,forewing length,survival,114,-0.155,NA,dif,33,55.6333
+28,Calopteryx splendens,I,Ecto,55.6333,abdomen length,survival,114,-0.028,NA,dif,33,55.6333
+28,Calopteryx splendens,I,Ecto,55.6333,thorax length,survival,114,0.082,NA,dif,33,55.6333
+28,Calopteryx splendens,I,Ecto,55.6333,thorax width,survival,114,0.095,NA,dif,33,55.6333
+28,Calopteryx splendens,I,Ecto,55.6333,forewing length,survival,114,0.076,NA,dif,33,55.6333
+28,Calopteryx splendens,I,Ecto,55.6333,abdomen length,survival,114,0.099,NA,dif,33,55.6333
+28,Calopteryx splendens,I,Ecto,55.7,forewing length,survival,51,-0.058,NA,dif,10,55.7
+28,Calopteryx splendens,I,Ecto,55.7,abdomen length,survival,51,-0.061,NA,dif,10,55.7
+28,Calopteryx splendens,I,Ecto,55.7,thorax length,survival,51,-0.071,NA,dif,10,55.7
+28,Calopteryx splendens,I,Ecto,55.7,thorax width,survival,51,0.022,NA,dif,10,55.7
+7,Eurosta solidaginins,I,Ecto,40.9058,gall diameter,survival,182,0.41,NA,dif,244,40.9058
+7,Eurosta solidaginins,I,Ecto,40.9058,gall diameter,survival,220,0.09,NA,dif,244,40.9058
+7,Eurosta solidaginins,I,Ecto,40.9058,gall diameter,survival,205,0.48,NA,dif,244,40.9058
+7,Eurosta solidaginins,I,Ecto,40.9058,gall diameter,survival,273,0.51,NA,dif,244,40.9058
+7,Eurosta solidaginins,I,Ecto,40.9178,gall diameter,survival,99,0.35,NA,dif,175,40.9178
+7,Eurosta solidaginins,I,Ecto,40.9178,gall diameter,survival,218,0.4,NA,dif,175,40.9178
+7,Eurosta solidaginins,I,Ecto,40.9178,gall diameter,survival,306,0.67,NA,dif,175,40.9178
+7,Eurosta solidaginins,I,Ecto,40.9178,gall diameter,survival,283,0.74,NA,dif,175,40.9178
+7,Eurosta solidaginins,I,Ecto,40.9253,gall diameter,survival,159,0.7,NA,dif,159,40.9253
+7,Eurosta solidaginins,I,Ecto,40.9253,gall diameter,survival,198,0.5,NA,dif,159,40.9253
+7,Eurosta solidaginins,I,Ecto,40.9253,gall diameter,survival,315,0.74,NA,dif,159,40.9253
+7,Eurosta solidaginins,I,Ecto,40.9253,gall diameter,survival,391,0.59,NA,dif,159,40.9253
+7,Eurosta solidaginins,I,Ecto,40.9281,gall diameter,survival,198,0.48,NA,dif,152,40.9281
+7,Eurosta solidaginins,I,Ecto,40.9281,gall diameter,survival,477,0.3,NA,dif,152,40.9281
+7,Eurosta solidaginins,I,Ecto,40.9281,gall diameter,survival,163,0.43,NA,dif,152,40.9281
+7,Eurosta solidaginins,I,Ecto,40.9281,gall diameter,survival,498,0.41,NA,dif,152,40.9281
+7,Eurosta solidaginins,I,Ecto,40.9422,gall diameter,survival,189,0.36,NA,dif,169,40.9422
+7,Eurosta solidaginins,I,Ecto,40.9422,gall diameter,survival,210,0.15,NA,dif,169,40.9422
+7,Eurosta solidaginins,I,Ecto,40.9422,gall diameter,survival,191,0.28,NA,dif,169,40.9422
+7,Eurosta solidaginins,I,Ecto,40.9422,gall diameter,survival,215,0.46,NA,dif,169,40.9422
+7,Eurosta solidaginins,I,Ecto,40.9722,gall diameter,survival,166,0.45,NA,dif,152,40.9722
+7,Eurosta solidaginins,I,Ecto,40.9722,gall diameter,survival,166,0.15,NA,dif,152,40.9722
+7,Eurosta solidaginins,I,Ecto,40.9722,gall diameter,survival,184,0.36,NA,dif,152,40.9722
+7,Eurosta solidaginins,I,Ecto,40.9722,gall diameter,survival,90,0.37,NA,dif,152,40.9722
+7,Eurosta solidaginins,I,Ecto,40.9758,gall diameter,survival,52,0.57,NA,dif,150,40.9758
+7,Eurosta solidaginins,I,Ecto,40.9758,gall diameter,survival,62,0.19,NA,dif,150,40.9758
+7,Eurosta solidaginins,I,Ecto,40.9758,gall diameter,survival,178,0.67,NA,dif,150,40.9758
+7,Eurosta solidaginins,I,Ecto,40.9758,gall diameter,survival,214,0.22,NA,dif,150,40.9758
+7,Eurosta solidaginins,I,Ecto,40.9806,gall diameter,survival,162,0.02,NA,dif,148,40.9806
+7,Eurosta solidaginins,I,Ecto,40.9806,gall diameter,survival,141,-0.26,NA,dif,148,40.9806
+7,Eurosta solidaginins,I,Ecto,40.9806,gall diameter,survival,146,-0.09,NA,dif,148,40.9806
+7,Eurosta solidaginins,I,Ecto,40.9806,gall diameter,survival,106,0.11,NA,dif,148,40.9806
+7,Eurosta solidaginins,I,Ecto,40.9811,gall diameter,survival,168,0.31,NA,dif,149,40.9811
+7,Eurosta solidaginins,I,Ecto,40.9811,gall diameter,survival,198,-0.04,NA,dif,149,40.9811
+7,Eurosta solidaginins,I,Ecto,40.9811,gall diameter,survival,288,0.46,NA,dif,149,40.9811
+7,Eurosta solidaginins,I,Ecto,40.9811,gall diameter,survival,366,0.36,NA,dif,149,40.9811
+7,Eurosta solidaginins,I,Ecto,40.9867,gall diameter,survival,88,0.3,NA,dif,149,40.9867
+7,Eurosta solidaginins,I,Ecto,40.9867,gall diameter,survival,110,0.15,NA,dif,149,40.9867
+7,Eurosta solidaginins,I,Ecto,40.9867,gall diameter,survival,128,0.19,NA,dif,149,40.9867
+7,Eurosta solidaginins,I,Ecto,40.9867,gall diameter,survival,110,0.36,NA,dif,149,40.9867
+7,Eurosta solidaginins,I,Ecto,40.9947,gall diameter,survival,176,0.03,NA,dif,143,40.9947
+7,Eurosta solidaginins,I,Ecto,40.9947,gall diameter,survival,274,0.05,NA,dif,143,40.9947
+7,Eurosta solidaginins,I,Ecto,40.9947,gall diameter,survival,280,0.78,NA,dif,143,40.9947
+7,Eurosta solidaginins,I,Ecto,40.9947,gall diameter,survival,318,0.44,NA,dif,143,40.9947
+7,Eurosta solidaginins,I,Ecto,41.02,gall diameter,survival,235,0.04,NA,dif,150,41.02
+7,Eurosta solidaginins,I,Ecto,41.02,gall diameter,survival,156,0.06,NA,dif,150,41.02
+7,Eurosta solidaginins,I,Ecto,41.02,gall diameter,survival,149,0.55,NA,dif,150,41.02
+7,Eurosta solidaginins,I,Ecto,41.02,gall diameter,survival,262,0.07,NA,dif,150,41.02
+7,Eurosta solidaginins,I,Ecto,41.1,gall diameter,survival,272,0.4,NA,dif,172,41.1
+7,Eurosta solidaginins,I,Ecto,41.1,gall diameter,survival,262,0.09,NA,dif,172,41.1
+7,Eurosta solidaginins,I,Ecto,41.1,gall diameter,survival,240,0.43,NA,dif,172,41.1
+7,Eurosta solidaginins,I,Ecto,41.1,gall diameter,survival,228,0.36,NA,dif,172,41.1
+7,Eurosta solidaginins,I,Ecto,41.1042,gall diameter,survival,202,0,NA,dif,181,41.1042
+7,Eurosta solidaginins,I,Ecto,41.1042,gall diameter,survival,217,0.02,NA,dif,181,41.1042
+7,Eurosta solidaginins,I,Ecto,41.1042,gall diameter,survival,186,0.32,NA,dif,181,41.1042
+7,Eurosta solidaginins,I,Ecto,41.1042,gall diameter,survival,192,0.34,NA,dif,181,41.1042
+7,Eurosta solidaginins,I,Ecto,41.1106,gall diameter,survival,233,0.47,NA,dif,201,41.1106
+7,Eurosta solidaginins,I,Ecto,41.1106,gall diameter,survival,169,0.16,NA,dif,201,41.1106
+7,Eurosta solidaginins,I,Ecto,41.1106,gall diameter,survival,196,0.39,NA,dif,201,41.1106
+7,Eurosta solidaginins,I,Ecto,41.1106,gall diameter,survival,61,1.19,NA,dif,201,41.1106
+7,Eurosta solidaginins,I,Ecto,41.1703,gall diameter,survival,617,0.27,NA,dif,213,41.1703
+7,Eurosta solidaginins,I,Ecto,41.1703,gall diameter,survival,657,0.24,NA,dif,213,41.1703
+7,Eurosta solidaginins,I,Ecto,41.1703,gall diameter,survival,438,0.19,NA,dif,213,41.1703
+7,Eurosta solidaginins,I,Ecto,41.1703,gall diameter,survival,54,0.29,NA,dif,213,41.1703
+22,Carpodacus mexicanus,V,Endo,32.2322,bill length,survival,1024,0.45,NA,dif,742,32.2322
+22,Carpodacus mexicanus,V,Endo,32.2322,bill width,survival,1024,0.13,NA,dif,742,32.2322
+22,Carpodacus mexicanus,V,Endo,32.2322,bill depth,survival,1024,0.46,NA,dif,742,32.2322
+22,Carpodacus mexicanus,V,Endo,32.2606,bill length,survival,221,-0.31,NA,dif,1079,32.2606
+22,Carpodacus mexicanus,V,Endo,32.2606,bill width,survival,221,0.32,NA,dif,1079,32.2606
+22,Carpodacus mexicanus,V,Endo,32.2606,bill depth,survival,221,0.19,NA,dif,1079,32.2606
+23,Carpodacus mexicanus,V,Endo,32.6042,bill length,overwinter survival,172,-0.01,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,wing length,overwinter survival,172,-0.12,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,tail length,overwinter survival,172,0.06,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,tarsus length,overwinter survival,172,0.03,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,bill length,overwinter survival,91,-0.34,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,wing length,overwinter survival,91,-0.15,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,tail length,overwinter survival,91,-0.27,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,32.6042,tarsus length,overwinter survival,91,-0.47,NA,dif,201,32.6042
+23,Carpodacus mexicanus,V,Endo,42.2791,bill length,overwinter survival,347,0.03,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,wing length,overwinter survival,347,-0.08,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,tail length,overwinter survival,347,0,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,tarsus length,overwinter survival,347,-0.21,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,bill length,overwinter survival,188,-0.06,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,wing length,overwinter survival,188,-0.03,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,tail length,overwinter survival,188,-0.11,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,42.2791,tarsus length,overwinter survival,188,-0.12,NA,dif,268,42.2791
+23,Carpodacus mexicanus,V,Endo,48.8573,bill length,overwinter survival,171,-0.09,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,wing length,overwinter survival,171,-0.04,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,tail length,overwinter survival,171,0.03,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,tarsus length,overwinter survival,171,0,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,bill length,overwinter survival,120,-0.02,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,wing length,overwinter survival,120,0.46,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,tail length,overwinter survival,120,0.07,NA,dif,1834,48.8573
+23,Carpodacus mexicanus,V,Endo,48.8573,tarsus length,overwinter survival,120,0.19,NA,dif,1834,48.8573
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,791,0.231,0.096,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1115,0.184,0.072,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1266,0.284,0.079,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1183,0.23,0.069,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1282,-0.051,0.087,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1222,0.231,0.068,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1307,0.014,0.102,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,499,0.334,0.248,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,973,0.226,0.116,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,425,0.168,0.119,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,889,0.087,0.079,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1793,0.367,0.063,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1275,0.143,0.066,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,897,0.469,0.155,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1067,0.658,0.125,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1189,0.315,0.07,dif,26,57.1667
+163,Ficedula albicolis,V,Endo,57.1667,condition index,Survival to adulthood,1529,0.324,0.092,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,793,0.188,0.097,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1119,0.073,0.072,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1267,0.237,0.079,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1183,0.006,0.069,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1299,0.32,0.087,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1225,0.179,0.068,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1307,0.006,0.103,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,500,0.368,0.183,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,975,0.321,0.115,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,425,0.271,0.109,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,895,0.359,0.077,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1794,0.097,0.064,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1276,0.086,0.066,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,899,0.205,0.115,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1073,0.182,0.11,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1194,0.224,0.07,dif,26,57.1667
+64,Ficedula albicollis,V,Endo,57.1667,fledgling tarsus length - phenotypic values,survival,1530,0.421,0.092,dif,26,57.1667
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult females,survival,82,NA,NA,dif,121,57.814
+67,Ovis aries,V,Endo,57.814,hindlimb length - adult males,survival,10,NA,NA,dif,121,57.814
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,NA,NA,NA,dif,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,NA,NA,NA,dif,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,NA,NA,NA,dif,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,NA,NA,NA,dif,10,51.641
+158,Parus major,V,Endo,51.641,tarsus length,survival to the next breeding season,NA,NA,NA,dif,10,51.641
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,NA,NA,NA,dif,39,52.0833
+158,Parus major,V,Endo,52.0833,tarsus length,survival to the next breeding season,NA,NA,NA,dif,39,52.0833
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,31,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,33,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,98,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,120,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,131,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,186,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,150,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,69,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,153,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,88,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,304,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,89,NA,NA,dif,1376,61
+66,Tamiasciurus hudsonicus,V,Endo,61,growth rate,survival,171,NA,NA,dif,1376,61
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,-0.13,0.16,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,-0.04,0.08,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,-0.02,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,0.01,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,0.07,0.07,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,0.09,0.06,grad,-17,23.4333
+112,Zosterops lateralis chlorocephalus,V,Endo,-23.4333,pc1,survival,NA,0.09,0.05,grad,-17,23.4333
