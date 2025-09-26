@@ -1,0 +1,20 @@
+#Manuscript Title: Global synthesis refutes widespread assumptions about natural selection in the mountains
+#Year: 2025
+
+#File Name: surv.b.csv
+#Description: linear viability selection coefficients on body size in natural populations across elevation and latitudes
+
+#Rows: 1371, excluding the header
+#Columns: 11. StudyID, Species, Taxon.Group, Endo.Ecto, Trait.Name, Fitness.Measure, N, linear.coefs, linear.coefs.se, grad.diff, elevation, abs.Lat
+
+#StudyID. Numeric identifier corresponding to the studies in the Siepielski et al. 2017 dataset
+#Species. Species on which sexual selection was measured
+#Taxon.group. Whether the species was a vertebrate or invertebrate
+#Endo.Ecto. Whether the species is an endotherm or an ectotherm
+#Trait.Name. Name of trait as described in original study
+#Fitness.Measure. Name of fitness proxy as described in original study
+# linear.coefs. Coefficients of directional sexual selection on body size (standardized covariance between body size and mating success as per Lande & Arnold 1983, Arnold & Wade 1984). When selection gradients were available, gradients were used. When selection gradients were not available, selection differentials were used. 
+#linear.coefs.se. Standard error of the selection coefficient
+#grad.diff. Whether the used selection coefficient was a gradient or a differential 
+#elevation. Elevation of study population (m asl)
+#abs.Lat. Absolute value of the latitude of the study population
